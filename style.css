@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Varela&display=swap');
+
+body {
+  background-color:#fafafa;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Varela', sans-serif;
+  line-height: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  color: #031926;
+}
+
+h2 {
+  font-size: 20px;
+  color: #468189;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+a {
+ color: #D74E09;
+ text-decoration: none;
+}
+
+a:hover {
+  color: #F2BB05;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.shadowed {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 40px;
+  padding: 0 20px;
+}
+
+.list-inline > li > a {
+  color: rgba(0, 0, 0, .4)
+}
+
+.list-inline > li > a:hover {
+  color: rgba(0, 0, 0, 1)
+}
+
+.btn {
+  background-color: #D74E09;
+  /* margin-top: 500px !important; */
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+ }
+ 
+ .btn:hover {
+   background-color: #F2BB05;
+   color: #fff;
+ }
+
+ @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
